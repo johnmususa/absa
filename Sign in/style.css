@@ -1,0 +1,230 @@
+body {
+    background: linear-gradient(to right, #0f2027, #000, #111);
+    font-family: 'Poppins', sans-serif;
+}
+
+#form {
+    width: 350px;
+    margin: 15vh auto 0 auto;
+    padding: 20px;
+    flex-grow: 1;
+    background-color: #ddd;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+#form h1 {
+    color: #0f2027;
+    font-size: 27px;
+    letter-spacing: 1px;
+    font-weight: 650;
+    text-align: center;
+}
+
+#form button{
+    padding: 12px 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    flex-grow: 1;
+    background-color: green;
+    cursor: pointer;
+    border: none;
+    letter-spacing: 1px;
+    font-weight: 450;
+    font-size: 17px;
+    border-radius: 5px;
+}
+#form button:active{
+    transform: translateY(1.1rem);
+    transition: .3s ease-in-out;
+}
+.input-control {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-control input {
+    flex-grow: 1;
+    border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	display: block;
+	font-size: 12px;
+	padding: 10px;
+	width: 90%;
+}
+
+.input-control input:focus {
+    outline: 0;
+}
+
+.input-control.success input {
+    border-color: #09c372;
+}
+
+.input-control.error input {
+    border-color: #ff3860;
+}
+
+.input-control .error {
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+}
+/*////////////////////////////////*/
+@media only screen and (max-width:425px){
+    #form {
+        width: 310px;
+        margin: 10vh auto 0 auto;
+        padding: 15px;
+        flex-grow: 1;
+        background-color: #ddd;
+        border-radius: 5px;
+        font-size: 13px;
+        margin-bottom: 2rem;
+    }
+    #form h1 {
+        color: #0f2027;
+        font-size: 25px;
+        letter-spacing: 1px;
+        font-weight: 650;
+        text-align: center;
+    }
+    
+    #form button{
+        padding: 12px 10px;
+        width: 90%;
+        color: white;
+        flex-grow: 1;
+        margin-left: 1rem;
+        background-color: green;
+        cursor: pointer;
+        border: none;
+        letter-spacing: 1px;
+        font-weight: 450;
+        font-size: 17px;
+        border-radius: 5px;
+    }
+    .input-control input {
+        flex-grow: 1;
+        border: 2px solid #f0f0f0;
+        border-radius: 4px;
+        display: block;
+        font-size: 12px;
+        padding: 10px;
+        width: 80%;
+        margin: auto;
+    }
+    
+    .input-control .error {
+        color: #ff3860;
+        font-size: 9px;
+        height: 10px;
+    }
+}
+@media only screen and (max-width:375px){
+    #form {
+        width: 280px;
+        margin: 10vh auto 0 auto;
+        padding: 16px;
+        flex-grow: 1;
+        background-color: #ddd;
+        border-radius: 5px;
+        font-size: 12px;
+        margin-bottom: 2rem;
+    }
+    #form h1 {
+        color: #0f2027;
+        font-size: 23px;
+        letter-spacing: 1px;
+        font-weight: 650;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+    
+    #form button{
+        padding: 10px 10px;
+        width: 90%;
+        color: white;
+        flex-grow: 1;
+        margin-left: 1rem;
+        background-color: green;
+        cursor: pointer;
+        border: none;
+        letter-spacing: 1px;
+        font-weight: 450;
+        font-size: 16px;
+        border-radius: 5px;
+    }
+    .input-control input {
+        flex-grow: 1;
+        border: 2px solid #f0f0f0;
+        border-radius: 4px;
+        display: block;
+        font-size: 12px;
+        padding: 9px;
+        width: 80%;
+        margin: auto;
+    }
+    
+    .input-control .error {
+        color: #ff3860;
+        font-size: 9px;
+        height: 10px;
+ `   }
+}
+@media only screen and (max-width:320px){
+    #form {
+        width: 270px;
+        margin: 10vh auto 0 auto;
+        padding: 12px;
+        flex-grow: 1;
+        background-color: #ddd;
+        border-radius: 5px;
+        font-size: 11px;
+        margin-bottom: 2rem;
+    }
+    #form h1 {
+        color: #0f2027;
+        font-size: 20px;
+        letter-spacing: 1px;
+        font-weight: 640;
+        margin-bottom: 1rem;
+        text-align: center;
+    } 
+    #form button{
+        padding: 10px 10px;
+        width: 83%;
+        color: white;
+        flex-grow: 1;
+        margin-left: 1.5rem;
+        background-color: green;
+        cursor: pointer;
+        margin-bottom: 15px;
+        border: none;
+        letter-spacing: 1px;
+        font-weight: 450;
+        font-size: 15px;
+        border-radius: 5px;
+    }
+    #form button:active{
+        transform: translateY(1.1rem);
+        cursor: pointer;
+    }
+    .input-control input {
+        flex-grow: 1;
+        border: 2px solid #f0f0f0;
+        border-radius: 4px;
+        display: block;
+        font-size: 11px;
+        padding: 9px;
+        width: 75%;
+        margin: auto;
+    }
+    
+    .input-control .error {
+        color: #ff3860;
+        font-size: 9px;
+        height: 10px;
+    }
+}
